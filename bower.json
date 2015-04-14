@@ -1,0 +1,19 @@
+{
+  "name": "master-builders",
+  "version": "0.0.0",
+  "authors": [
+    "Kris Zima <kris.zima@crudigital.com.au>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
