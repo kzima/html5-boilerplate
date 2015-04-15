@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var less = require('gulp-less');
 
 gulp.task('less', function () {
-  gulp.src('./less/rootesting.less')
+  gulp.src('./less/main.less')
     .pipe(less({errLogToConsole: true}))
     .pipe(gulp.dest('./css'));
 });
